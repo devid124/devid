@@ -1,8 +1,14 @@
-public class h1 {
+import java.io.*;
+import java.util.*;
+public class h1{
+
     public static void main(String[] args) {
-        int num1 =2;
-        int num2=5;
-        int multiple=num1*num2;
-        System.out.println(multiple);
+          Scanner sc = new Scanner(System.in);
+          System.out.println("enter number ");
+        long a = sc.nextLong();
+        System.out.println("enter number ");
+        long b = sc.nextLong();
+        System.out.println("sum of values :" + (a+b));
+        System.out.println(a*b);
     }
 }
